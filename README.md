@@ -24,16 +24,16 @@ The project is divided into the following components:
 
 ## Project Structure
 
-RMI_TaskManager/
-├── src/
-│   ├── taskmanager/
-│   │   ├── model/
-│   │   │   ├── TaskManager.java      # Interface for remote methods
-│   │   │   ├── Task.java             # Task model
-│   │   ├── service/
-│   │   │   ├── TaskManagerImpl.java  # Implementation of the TaskManager interface
-│   │   │   ├── TaskMainServer.java   # Server entry point
-│   │   │   ├── TaskMainClient.java   # Client entry point
+📂 RMI_TaskManager/
+┣ 📂 src/
+┃ ┣ 📂 taskmanager/
+┃ ┃ ┣ 📂 model/ 
+┃ ┃ ┃ ┣ 📜 TaskManager.java  # Interface for remote methods
+┃ ┃ ┃ ┣ 📜 Task.java   # Task model
+┃ ┃ ┣ 📂 service/ 
+┃ ┃ ┃ ┣ 📜 TaskManagerImpl.java  # Implementation of the TaskManager interface
+┃ ┃ ┃ ┣ 📜 TaskMainServer.java  # Server entry point
+┃ ┃ ┃ ┣ 📜 TaskMainClient.java  # Client entry point
 
 ### **taskmanager.model**
 
